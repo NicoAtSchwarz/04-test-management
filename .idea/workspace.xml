@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="" />
+    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/resources/pilotSpeedAdjustment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/implementation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/implementation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/backup-dir/Application.class1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +39,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NicoAtSchwarz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NicoAtSchwarz/04-test-management.git",
+    "accountId": "c3ce6266-58a6-4b80-97d0-0c36e9956580"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2lbJ3UscNpdNTrOZrL9vg1otV4V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,13 +73,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Debug",
-    "Gradle.02_implementierung [:Application.main()].executor": "Debug",
+    "Gradle.02_implementierung [:Application.main()].executor": "Run",
     "Gradle.02_implementierung [:model.main.Application.main()].executor": "Run",
     "Gradle.Build 02_implementierung.executor": "Run",
     "Gradle.Build implementation.executor": "Run",
+    "Gradle.TestApplication.executor": "Run",
     "Gradle.implementation [:Application.main()].executor": "Run",
     "Gradle.implementation [:model.main.Application.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "BDD-Tests__Cucumber",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "Z:/dms/07_archiv/02_lehre/01_national/dhbw/bad_mergentheim/02_lehrveranstaltungen/2024/software_engineering/i/01/02_vorlesung/04_test_build_management/02_test_management/05_training/02_implementierung",
     "node.js.detected.package.eslint": "true",
@@ -48,8 +91,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -58,7 +101,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cucumber.stepdefs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.main.Application" />
       <module name="implementation.main" />
@@ -72,8 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cucumber.TestApplication&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestApplication" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -106,11 +179,15 @@
       <workItem from="1727628714045" duration="6000" />
       <workItem from="1727642790294" duration="1265000" />
       <workItem from="1729241132058" duration="3414000" />
+      <workItem from="1729298768995" duration="6569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -120,7 +197,28 @@
           <line>82</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="cockpit.currentSpeed" />
+        <watch expression="((PilotSpeedAdjustmentSteps)this).fuelConsumptionHour" custom="cucumber.stepdefs.PilotSpeedAdjustmentSteps" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
