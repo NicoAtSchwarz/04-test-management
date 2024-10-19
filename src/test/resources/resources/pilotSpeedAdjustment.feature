@@ -9,11 +9,11 @@ Feature: Speed Adjustment and Tank Switch During Flight
     Then the fuel consumption should be 6600 per hour
     And the airplane should fly at 600
 
-    When the pilot flies for 550 hours at 2 by turning the speed knob
+    When the pilot flies for 2 hours at 550 by turning the speed knob
     Then the fuel consumption should be 6050 per hour
     And the airplane should fly at 550
 
-    When the pilot flies for 575 hours at 1 by turning the speed knob
+    When the pilot flies for 1 hours at 575 by turning the speed knob
     Then the fuel consumption should be 6325 per hour
     And the airplane should fly at 575
     And the center tank should be used

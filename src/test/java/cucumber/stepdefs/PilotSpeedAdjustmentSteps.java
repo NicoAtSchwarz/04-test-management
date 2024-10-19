@@ -48,18 +48,17 @@ public class PilotSpeedAdjustmentSteps {
 
     @When("the pilot flies for {int} hours at {int} by turning the speed knob")
     public void thePilotFliesForHoursAtSpeed(int hours, int speed) {
-        int consumptionHour = speed * 11;
-        for (int i = 0; i < hours; i++) {
+        this.fuelConsumptionHour = speed * 11;
+        for (int j = 0; j < hours; j++) {
             pilot.setSpeed(speed);
             leftEngine.consumeFuel(fuelConsumptionHour);
             rightEngine.consumeFuel(fuelConsumptionHour);
         }
-        this.fuelConsumptionHour = consumptionHour;
     }
 
     @Then("the fuel consumption should be {int} per hour")
     public void theFuelConsumptionShouldBePerHour(int consumption) {
-        assertEquals(1, 1);
+        assertEquals(consumption, this.fuelConsumptionHour);
     }
 
     @Then("the airplane should fly at {int}")
