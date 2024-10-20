@@ -92,12 +92,12 @@
     &quot;assignee&quot;: &quot;NicoAtSchwarz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NicoAtSchwarz/04-test-management.git",
-    "accountId": "64ba4d90-43bb-44f3-82f8-85291a716609"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NicoAtSchwarz/04-test-management.git&quot;,
+    &quot;accountId&quot;: &quot;64ba4d90-43bb-44f3-82f8-85291a716609&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -109,34 +109,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Debug",
-    "Gradle.02_implementierung [:Application.main()].executor": "Run",
-    "Gradle.02_implementierung [:io.cucumber.core.cli.Main.main()].executor": "Run",
-    "Gradle.02_implementierung [:model.main.Application.main()].executor": "Debug",
-    "Gradle.Build 02_implementierung.executor": "Run",
-    "Gradle.Build implementation.executor": "Run",
-    "Gradle.TestApplication.executor": "Debug",
-    "Gradle.implementation [:Application.main()].executor": "Run",
-    "Gradle.implementation [:model.main.Application.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "BDD-Tests__Cucumber",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/oblaender/Downloads/DHBW/Sem 3/Software Engineering I/Tutorial 2/04 Test Management/02_implementierung",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.02_implementierung [:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.02_implementierung [:io.cucumber.core.cli.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.02_implementierung [:model.main.Application.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.Build 02_implementierung.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build implementation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.implementation [:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.implementation [:model.main.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;BDD-Tests__Cucumber&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oblaender/Downloads/DHBW/Sem 3/Software Engineering I/Tutorial 2/04 Test Management/02_implementierung&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cucumber.stepdefs" />
