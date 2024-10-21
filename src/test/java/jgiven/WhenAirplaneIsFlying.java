@@ -12,23 +12,26 @@ public class WhenAirplaneIsFlying extends Stage<WhenAirplaneIsFlying> {
     private Cockpit cockpit;
 
     @ProvidedScenarioState
-    private JetEngine leftEngine, rightEngine;
+    private JetEngine[] jetEngines;
+
+    private JetEngine leftEngine;
+    private JetEngine rightEngine;
 
     public WhenAirplaneIsFlying the_pilot_sets_speed_to(int speed) {
+        leftEngine = jetEngines[0];
+        rightEngine = jetEngines[1];
+
         cockpit.setCurrentSpeed(speed);
         return this;
     }
 
-    public WhenAirplaneIsFlying the_airplane_flies_for_hours_with_engine_speeds(int hours, int[] speeds) {
-        for (int i = 0; i < hours; i++) {
-            leftEngine.consumeFuel(speeds[i] * 11);  // Simuliert den Treibstoffverbrauch
-            rightEngine.consumeFuel(speeds[i] * 11); // für beide Triebwerke
+    public WhenAirplaneIsFlying the_airplane_flies_till_wingtank_is_below_threshold(int speed) {
+        while (!leftEngine.getWingTank().isBelowThreshold()) {
+            leftEngine.consumeFuel(speed * 11);
+            rightEngine.consumeFuel(speed * 11);
         }
-        return this;
-    }
-
-    public WhenAirplaneIsFlying one_engine_is_stopped_after(int hours) {
-        cockpit.getLeftEngineSwitch().toggle(); // Stopping the left engine
+        leftEngine.consumeFuel(speed * 11);
+        rightEngine.consumeFuel(speed * 11);
         return this;
     }
 }

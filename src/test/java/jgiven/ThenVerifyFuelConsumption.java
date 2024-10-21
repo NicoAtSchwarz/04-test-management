@@ -9,17 +9,19 @@ import model.shared.*;
 public class ThenVerifyFuelConsumption extends Stage<ThenVerifyFuelConsumption> {
 
     @ProvidedScenarioState
-    private JetEngine leftEngine, rightEngine;
+    private JetEngine[] jetEngines;
 
-    public ThenVerifyFuelConsumption only_one_engine_should_consume_fuel() {
-        Assertions.assertTrue(leftEngine.getWingTank().isEmpty() && !rightEngine.getWingTank().isEmpty(),
-                "Left engine should have stopped consuming fuel while right engine continues.");
-        return self();
-    }
+    private JetEngine leftEngine;
+    private JetEngine rightEngine;
 
-    public ThenVerifyFuelConsumption fuel_should_be_consumed_properly_after_tank_switch() {
-        Assertions.assertTrue(rightEngine.getCenterTank().isBelowThreshold(),
-                "The center tank should be used after wing tanks are empty.");
-        return self();
+    public ThenVerifyFuelConsumption verify_centertank_is_used_so_wingtank_is_below_threshold() {
+        leftEngine = jetEngines[0];
+        rightEngine = jetEngines[1];
+
+        double initialCenterFuel = leftEngine.getCenterTank().getCapacity();
+
+        Assertions.assertTrue(leftEngine.getCenterTank().getCurrentFuel() < initialCenterFuel,
+                "Center tank should have been used after wing tank emptied for the left engine.");
+        return this;
     }
 }

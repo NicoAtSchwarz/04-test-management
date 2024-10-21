@@ -5,65 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/implementation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/implementation.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/SpeedKnob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/SpeedKnob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/command/AdjustSpeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/command/AdjustSpeedCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/command/ShutdownEngineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/command/ShutdownEngineCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/command/StartEngineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/command/StartEngineCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/main/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/WingPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/WingPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/state/JetEngineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/state/JetEngineState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/state/ShutdownState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/state/ShutdownState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/state/StartupState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/state/StartupState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/AirplaneFuelConsumptionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/AirplaneFuelConsumptionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/EngineStopSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/EngineStopSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/FuelEmergencySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/FuelEmergencySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepdefs/PilotSpeedAdjustmentSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/resources/airplaneFuelConsumption.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/resources/airplaneFuelConsumption.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/resources/engineStop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/resources/engineStop.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/resources/fuelEmergency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/resources/fuelEmergency.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/resources/pilotSpeedAdjustment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/resources/pilotSpeedAdjustment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jgiven/AirplaneFuelConsumptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jgiven/AirplaneFuelConsumptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jgiven/GivenAirplaneWithFuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jgiven/GivenAirplaneWithFuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jgiven/ThenVerifyFuelConsumption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jgiven/ThenVerifyFuelConsumption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jgiven/WhenAirplaneIsFlying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jgiven/WhenAirplaneIsFlying.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,40 +63,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.02_implementierung [:Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.02_implementierung [:io.cucumber.core.cli.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.02_implementierung [:model.main.Application.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Build 02_implementierung.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build implementation.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.implementation [:Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.implementation [:model.main.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;BDD-Tests__Cucumber&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/oblaender/Downloads/DHBW/Sem 3/Software Engineering I/Tutorial 2/04 Test Management/02_implementierung&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Debug",
+    "Gradle.02_implementierung [:Application.main()].executor": "Run",
+    "Gradle.02_implementierung [:io.cucumber.core.cli.Main.main()].executor": "Run",
+    "Gradle.02_implementierung [:model.main.Application.main()].executor": "Debug",
+    "Gradle.AirplaneFuelConsumptionTest.executor": "Run",
+    "Gradle.Build 02_implementierung.executor": "Run",
+    "Gradle.Build implementation.executor": "Run",
+    "Gradle.TestApplication.executor": "Run",
+    "Gradle.implementation [:Application.main()].executor": "Run",
+    "Gradle.implementation [:model.main.Application.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "BDD-Tests__Cucumber",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/oblaender/Downloads/DHBW/Sem 3/Software Engineering I/Tutorial 2/04 Test Management/02_implementierung",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cucumber.stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestApplication">
+  <component name="RunManager" selected="Gradle.AirplaneFuelConsumptionTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.main.Application" />
       <module name="implementation.main" />
@@ -155,6 +110,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="AirplaneFuelConsumptionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jgiven.AirplaneFuelConsumptionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="TestApplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -182,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AirplaneFuelConsumptionTest" />
         <item itemvalue="Gradle.TestApplication" />
         <item itemvalue="Application.Application" />
       </list>
@@ -248,8 +228,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
-        <watch expression="cockpit.currentSpeed" />
-        <watch expression="((PilotSpeedAdjustmentSteps)this).fuelConsumptionHour" custom="cucumber.stepdefs.PilotSpeedAdjustmentSteps" />
+        <watch expression="((Scenario)((AirplaneFuelConsumptionTest)this).scenario).thenStage" custom="com.tngtech.jgiven.impl.Scenario,jgiven.AirplaneFuelConsumptionTest" />
+        <watch expression="this.rightEngine" custom="com.tngtech.jgiven.impl.Scenario,jgiven.WhenAirplaneIsFlying,jgiven.AirplaneFuelConsumptionTest" />
       </configuration>
     </watches-manager>
   </component>

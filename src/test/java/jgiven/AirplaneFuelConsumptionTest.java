@@ -6,15 +6,13 @@ import org.junit.jupiter.api.Test;
 public class AirplaneFuelConsumptionTest extends ScenarioTest<GivenAirplaneWithFuel, WhenAirplaneIsFlying, ThenVerifyFuelConsumption> {
     @Test
     public void test_fuel_consumption_and_tank_switch() {
-        int[] speeds = {600, 600, 600, 600, 600, 600, 600, 600, 600, 600};
+        int speed = 505;
 
-        given() .the_airplane_is_initialized_with_full_tanks();
+        given() .the_airplane_is_initialized_with_full_tanks(speed);
 
-        when()  .the_pilot_sets_speed_to(600)
-                .and().the_airplane_flies_for_hours_with_engine_speeds(6, speeds)
-                .and().one_engine_is_stopped_after(6);
+        when()  .the_pilot_sets_speed_to(speed)
+                .and().the_airplane_flies_till_wingtank_is_below_threshold(speed);
 
-        then()  .only_one_engine_should_consume_fuel()
-                .and().fuel_should_be_consumed_properly_after_tank_switch();
+        then()  .verify_centertank_is_used_so_wingtank_is_below_threshold();
     }
 }

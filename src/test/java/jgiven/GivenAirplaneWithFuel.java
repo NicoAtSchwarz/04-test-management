@@ -19,11 +19,13 @@ public class GivenAirplaneWithFuel extends Stage<GivenAirplaneWithFuel> {
     private Cockpit cockpit;
 
     @ProvidedScenarioState
+    private JetEngine[] jetEngines = new JetEngine[2];
+
     private JetEngine leftEngine;
-    @ProvidedScenarioState
     private JetEngine rightEngine;
 
-    public void the_airplane_is_initialized_with_full_tanks() {
+
+    public GivenAirplaneWithFuel the_airplane_is_initialized_with_full_tanks(int speed) {
         FuelTank leftWingTank = new FuelTank("left wing tank", 37000);
         FuelTank rightWingTank = new FuelTank("right wing tank", 37000);
         FuelTank centerTank = new FuelTank("center tank", 64000);
@@ -35,5 +37,11 @@ public class GivenAirplaneWithFuel extends Stage<GivenAirplaneWithFuel> {
         EngineSwitch rightEngineSwitch = new EngineSwitch(new StartEngineCommand(rightEngine), new ShutdownEngineCommand(rightEngine));
 
         cockpit = new Cockpit(leftEngineSwitch, rightEngineSwitch, null);
+        cockpit.setSpeedKnob(new SpeedKnob(new AdjustSpeedCommand(cockpit, speed), new AdjustSpeedCommand(cockpit, 0)));
+
+        jetEngines[0] = leftEngine;
+        jetEngines[1] = rightEngine;
+
+        return this;
     }
 }
