@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="" />
+    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="Junit test">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/implementation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/implementation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +46,45 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ilianaDhbw"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NicoAtSchwarz/04-test-management.git",
+    "accountId": "37ee869c-34e2-42be-ac96-88aefddfff02"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -37,11 +101,15 @@
     "Gradle.02_implementierung [:model.main.Application.main()].executor": "Run",
     "Gradle.Build 02_implementierung.executor": "Run",
     "Gradle.Build implementation.executor": "Run",
+    "Gradle.Junit.executor": "Run",
+    "Gradle.TestApplication.executor": "Run",
     "Gradle.implementation [:Application.main()].executor": "Run",
     "Gradle.implementation [:model.main.Application.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Junit",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "Z:/dms/07_archiv/02_lehre/01_national/dhbw/bad_mergentheim/02_lehrveranstaltungen/2024/software_engineering/i/01/02_vorlesung/04_test_build_management/02_test_management/05_training/02_implementierung",
+    "last_opened_file_path": "C:/DHBW/Semseter 3/Software Engineering/04-test-management",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,14 +119,9 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\no220\\.gradle"
-    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Junit">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.main.Application" />
       <module name="implementation.main" />
@@ -72,8 +135,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Junit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;junit.TestApplication&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Gradle.Junit" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Junit" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -81,8 +173,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -106,11 +198,37 @@
       <workItem from="1727628714045" duration="6000" />
       <workItem from="1727642790294" duration="1265000" />
       <workItem from="1729241132058" duration="3414000" />
+      <workItem from="1729613264381" duration="1030000" />
     </task>
+    <task id="LOCAL-00001" summary="Junit test">
+      <option name="closed" value="true" />
+      <created>1729614034756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729614034756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Junit" />
+    <MESSAGE value="Junit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
