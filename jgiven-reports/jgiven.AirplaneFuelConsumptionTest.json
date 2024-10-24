@@ -1,0 +1,113 @@
+{
+  "className": "jgiven.AirplaneFuelConsumptionTest",
+  "name": "Airplane Fuel Consumption",
+  "scenarios": [
+    {
+      "className": "jgiven.AirplaneFuelConsumptionTest",
+      "testMethodName": "test_fuel_consumption_and_tank_switch",
+      "description": "test fuel consumption and tank switch",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "the airplane is initialized with full tanks",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the airplane is initialized with full tanks"
+                },
+                {
+                  "value": "505",
+                  "argumentInfo": {
+                    "argumentName": "speed",
+                    "formattedValue": "505"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 6530800,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "the pilot sets speed to",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the pilot sets speed to"
+                },
+                {
+                  "value": "505",
+                  "argumentInfo": {
+                    "argumentName": "speed",
+                    "formattedValue": "505"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 375300,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "the airplane flies till wingtank is below threshold",
+              "words": [
+                {
+                  "value": "and",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the airplane flies till wingtank is below threshold"
+                },
+                {
+                  "value": "505",
+                  "argumentInfo": {
+                    "argumentName": "speed",
+                    "formattedValue": "505"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 3826600,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "verify centertank is used so wingtank is below threshold",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "verify centertank is used so wingtank is below threshold"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1508300,
+              "depth": 0,
+              "parentFailed": false
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 27937600
+        }
+      ],
+      "casesAsTable": false,
+      "durationInNanos": 27937600
+    }
+  ],
+  "tagMap": {}
+}

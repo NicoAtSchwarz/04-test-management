@@ -1,5 +1,6 @@
 package model.cockpit;
 
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import model.command.Command;
 
@@ -7,6 +8,7 @@ import model.command.Command;
 public class EngineSwitch {
     private final Command startCommand;
     private final Command stopCommand;
+    @Getter
     private boolean isEngineOn;
 
     public void toggle() {
