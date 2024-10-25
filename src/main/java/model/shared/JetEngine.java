@@ -21,7 +21,6 @@ public class JetEngine {
         this.centerTank = centerTank;
         state = new ShutdownState(this);
     }
-
     public void startEngine() {
         state.start();
     }

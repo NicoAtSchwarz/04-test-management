@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="Junit test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/CockpitIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" afterDir="false" />
@@ -25,8 +34,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/implementation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/implementation.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/EngineSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/FuelTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="implementation" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -69,12 +88,12 @@
     &quot;assignee&quot;: &quot;ilianaDhbw&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NicoAtSchwarz/04-test-management.git",
-    "accountId": "c3ce6266-58a6-4b80-97d0-0c36e9956580"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NicoAtSchwarz/04-test-management.git&quot;,
+    &quot;accountId&quot;: &quot;c3ce6266-58a6-4b80-97d0-0c36e9956580&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -95,14 +114,23 @@
     "Gradle.02_implementierung [:Application.main()].executor": "Debug",
     "Gradle.02_implementierung [:model.main.Application.main()].executor": "Run",
     "Gradle.AirplaneFuelConsumptionTest.executor": "Run",
+    "Gradle.AirplaneIntegrationTests.testEngineStartWithFuelTransfer.executor": "Run",
     "Gradle.Build 02_implementierung.executor": "Run",
     "Gradle.Build implementation.executor": "Run",
+    "Gradle.CockpitIntegrationTest.executor": "Debug",
+    "Gradle.CockpitIntegrationTest.testEngineStartStop.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testEngineStartWithFuelTransfer.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testFuelConsumption.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testFuelConsumptionOrder.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank.executor": "Run",
     "Gradle.Cucumber.executor": "Run",
     "Gradle.JGiven.executor": "Run",
     "Gradle.Junit.executor": "Run",
     "Gradle.TestApplication.executor": "Run",
     "Gradle.implementation [:Application.main()].executor": "Run",
     "Gradle.implementation [:model.main.Application.main()].executor": "Run",
+    "Gradle.test-management [:Application.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -116,7 +144,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\yanni\\.gradle"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -125,21 +159,8 @@
       <recent name="V:\Download\20240929_lerneinheit_02\04_test_build_management\02_test_management\05_training\02_implementierung\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Cucumber">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.main.Application" />
-      <module name="implementation.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cucumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CockpitIntegrationTest.testFuelConsumption">
+    <configuration name="CockpitIntegrationTest.testEngineStartStop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;cucumber.TestApplication&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testEngineStartStop&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,7 +184,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="JGiven" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CockpitIntegrationTest.testFuelConsumption" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -176,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;jgiven.AirplaneFuelConsumptionTest&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testFuelConsumption&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,7 +208,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Junit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CockpitIntegrationTest.testFuelConsumptionOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -200,7 +221,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;junit.TestApplication&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testFuelConsumptionOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,24 +281,27 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Gradle.Cucumber" />
-      <item itemvalue="Gradle.JGiven" />
-      <item itemvalue="Gradle.Junit" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testEngineStartStop" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumption" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionOrder" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Cucumber" />
-        <item itemvalue="Gradle.JGiven" />
-        <item itemvalue="Gradle.Junit" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumption" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testEngineStartStop" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionOrder" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -254,6 +326,7 @@
       <workItem from="1727642790294" duration="1265000" />
       <workItem from="1729241132058" duration="3414000" />
       <workItem from="1729613264381" duration="1030000" />
+      <workItem from="1729843885030" duration="17493000" />
     </task>
     <task id="LOCAL-00001" summary="Junit test">
       <option name="closed" value="true" />
@@ -292,6 +365,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/model/main/Application.java</url>
           <line>82</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/main/Application.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

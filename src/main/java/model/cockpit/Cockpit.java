@@ -20,4 +20,18 @@ public class Cockpit {
         this.speedKnob = speedKnob;
         currentSpeed = 0;
     }
+
+    public void startEngine() {
+        if(leftEngineSwitch.isEngineOn() && rightEngineSwitch.isEngineOn()) {
+            leftEngineSwitch.toggle();
+            rightEngineSwitch.toggle();
+        }
+    }
+
+    public void stopEngine() {
+        if(!leftEngineSwitch.isEngineOn() && !rightEngineSwitch.isEngineOn()) {
+            leftEngineSwitch.toggle();
+            rightEngineSwitch.toggle();
+        }
+    }
 }
