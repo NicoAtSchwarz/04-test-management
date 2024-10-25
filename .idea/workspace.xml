@@ -4,38 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="Junit test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/CockpitIntegrationTest.java" afterDir="false" />
+    <list default="true" id="d1758a69-374b-4ef3-b03b-2c5dbb7acfc3" name="Changes" comment="Mockito Tests">
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/implementation.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Cockpit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/EngineSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/Pilot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/cockpit/SpeedKnob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/AdjustSpeedCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/ShutdownEngineCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/command/StartEngineCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/main/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/FuelTank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/JetEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/shared/WingPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/JetEngineState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/ShutdownState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/state/StartupState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/implementation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/implementation.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cockpit/Cockpit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/shared/JetEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/CockpitIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/CockpitIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +94,16 @@
     "Gradle.AirplaneIntegrationTests.testEngineStartWithFuelTransfer.executor": "Run",
     "Gradle.Build 02_implementierung.executor": "Run",
     "Gradle.Build implementation.executor": "Run",
-    "Gradle.CockpitIntegrationTest.executor": "Debug",
+    "Gradle.CockpitIntegrationTest.executor": "Run",
     "Gradle.CockpitIntegrationTest.testEngineStartStop.executor": "Run",
     "Gradle.CockpitIntegrationTest.testEngineStartWithFuelTransfer.executor": "Run",
     "Gradle.CockpitIntegrationTest.testFuelConsumption.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testFuelConsumptionFromWingAndCenterTank.executor": "Run",
     "Gradle.CockpitIntegrationTest.testFuelConsumptionOrder.executor": "Run",
     "Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel.executor": "Run",
     "Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testNoCenterTankUseWhenWingTankHasFuel.executor": "Run",
+    "Gradle.CockpitIntegrationTest.testSwitchToCenterTankAt10PercentFuel.executor": "Run",
     "Gradle.Cucumber.executor": "Run",
     "Gradle.JGiven.executor": "Run",
     "Gradle.Junit.executor": "Run",
@@ -159,7 +139,7 @@
       <recent name="V:\Download\20240929_lerneinheit_02\04_test_build_management\02_test_management\05_training\02_implementierung\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CockpitIntegrationTest.testFuelConsumption">
+  <component name="RunManager">
     <configuration name="CockpitIntegrationTest.testEngineStartStop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -208,7 +188,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CockpitIntegrationTest.testFuelConsumptionOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CockpitIntegrationTest.testFuelConsumptionFromWingAndCenterTank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -221,7 +201,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mockito.CockpitIntegrationTest.testFuelConsumptionOrder&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testFuelConsumptionFromWingAndCenterTank&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -232,7 +212,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CockpitIntegrationTest.testNoCenterTankUseWhenWingTankHasFuel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -245,7 +225,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mockito.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testNoCenterTankUseWhenWingTankHasFuel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -256,7 +236,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CockpitIntegrationTest.testSwitchToCenterTankAt10PercentFuel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -269,7 +249,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mockito.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank&quot;" />
+            <option value="&quot;mockito.CockpitIntegrationTest.testSwitchToCenterTankAt10PercentFuel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -283,17 +263,17 @@
     <list>
       <item itemvalue="Gradle.CockpitIntegrationTest.testEngineStartStop" />
       <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumption" />
-      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionOrder" />
-      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" />
-      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionFromWingAndCenterTank" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testNoCenterTankUseWhenWingTankHasFuel" />
+      <item itemvalue="Gradle.CockpitIntegrationTest.testSwitchToCenterTankAt10PercentFuel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CockpitIntegrationTest.testNoCenterTankUseWhenWingTankHasFuel" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testSwitchToCenterTankAt10PercentFuel" />
+        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionFromWingAndCenterTank" />
         <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumption" />
         <item itemvalue="Gradle.CockpitIntegrationTest.testEngineStartStop" />
-        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelNotSwitchingWhenWingTankHasFuel" />
-        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelConsumptionOrder" />
-        <item itemvalue="Gradle.CockpitIntegrationTest.testFuelSwitchingFromWingToCenterTank" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +306,7 @@
       <workItem from="1727642790294" duration="1265000" />
       <workItem from="1729241132058" duration="3414000" />
       <workItem from="1729613264381" duration="1030000" />
-      <workItem from="1729843885030" duration="17493000" />
+      <workItem from="1729843885030" duration="17915000" />
     </task>
     <task id="LOCAL-00001" summary="Junit test">
       <option name="closed" value="true" />
@@ -336,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729614034756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mockito Tests">
+      <option name="closed" value="true" />
+      <created>1729868749101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729868749101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +344,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Junit" />
     <MESSAGE value="Junit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Junit test" />
+    <MESSAGE value="Mockito Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mockito Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
